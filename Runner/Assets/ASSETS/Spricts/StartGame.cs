@@ -4,11 +4,22 @@ using System.Collections;
 
 public class StartGame : MonoBehaviour {
 
-	GameObject menu;
-	public void Click(){
-		Time.timeScale = 1;
-		menu = GameObject.Find ("Canvas");
-		menu.SetActive (false);
-		//Debug.Log("123123");
+	public Texture2D normal;//普通
+
+	public Texture2D active;//高亮
+
+	public string levelname;
+
+	void OnMouseDown(){
+		GetComponent<GUITexture>().texture = active;
 	}
+	void Start(){
+	
+	
+	}
+	void Update(){
+	
+	
+	}
+
 }

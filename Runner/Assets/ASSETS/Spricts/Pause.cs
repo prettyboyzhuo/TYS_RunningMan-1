@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Script_Menu : MonoBehaviour {
+public class Pause : MonoBehaviour {
    
    public bool IsGamePaused;
   GameObject menu;

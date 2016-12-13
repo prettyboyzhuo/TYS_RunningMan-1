@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ASSETS\Spricts\FollowCamera.cs" />
-     <Compile Include="Assets\ASSETS\Spricts\Script_Menu.cs" />
+     <Compile Include="Assets\ASSETS\Spricts\Pause.cs" />
      <Compile Include="Assets\ASSETS\Spricts\StartGame.cs" />
      <Compile Include="Assets\ASSETS\Spricts\moving.cs" />
  <Reference Include="UnityEngine.UI">
